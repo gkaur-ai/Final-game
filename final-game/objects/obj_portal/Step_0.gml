@@ -8,25 +8,24 @@ var jump_pressed = keyboard_check_pressed(vk_space); // var makes this a local v
 is_ground = place_meeting(x, y+2, ground_object);
 is_ceiling = place_meeting(x, y-2, ground_object);
 
-// MOVEMENT - ACTUALLY MOVE PIXALS 
-if (is_jumping) {
-move_y = keyboard_check(vk_down) - keyboard_check(vk_up); // Check if going up or down
-move_y *= jump_speed;  // Move up or down the ladder 
-}
-else {
+// MOVEMENT - ACTUALLY MOVE PIXALS
+	if (is_jumping) {
+		move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
+	}
 // Jumping
+
 	if (is_ground) {
 		move_y = 0; // Get rid of gravity which presses object into the ground
-		if (jump_pressed) {
+		if (is_ground && jump_pressed) {
 			move_y = jump_speed; // Jump
 	}
 }
 
 // Falling 
-	else if (!is_ground && move_y < max_fall_speed ) { // Only allow gravity if not on tl
-		move_y += gravity_force
+	else if (move_y < max_fall_speed) {	// make sure it doesn't fall too fast
+		move_y += gravity_force;	// if falling, move at gravity force 
 	}
-}
+
 
 // AVOID STICKING TO THE BOTTOM OF PLATFORMS 
 if (is_ceiling) { // If hitting ceiling , move back down
@@ -35,7 +34,7 @@ if (is_ceiling) { // If hitting ceiling , move back down
 	}
 }
 //MOVE THE PLAYER
-move_and_collide(move_x, move_y, ground_object); // Move the object
+move_and_collide(move_x, move_y, obj_player); // Move the object
 
 //OUTSIDE ROOM
 if (y < -200 || y> room_height+20 || x < -20 || x> room_width+20) {		// Set the 4 boundaires of the room 
@@ -45,13 +44,17 @@ if (y < -200 || y> room_height+20 || x < -20 || x> room_width+20) {		// Set the 
 // GET COIN
 if place_meeting(x, y, coin_object) {
 	got_coin = true; 
-	// Destroy key
-	var 
+	// Destroy coin
+	var myinstance = instance_place(x, y, coin_object)
+	instance_destroy(inst_5D1B1AE9);
 }
 
-
 // DOOR COLLISION 
-
+	if instance_place(x, y, obj_portal){
+		if (got_coin) {
+			room_goto_next();
+	}
+}
 
 
 
