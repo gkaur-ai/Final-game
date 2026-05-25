@@ -63,7 +63,8 @@ if place_meeting(x, y, coin_object) {
 	got_coin = true; 
 	// Destroy coin
 	var myinstance = instance_place(x, y, coin_object)
-	instance_destroy(inst_5D1B1AE9);
+	instance_destroy(inst_1C35944);
+	
 }
 
 // DOOR COLLISION 
@@ -72,3 +73,5 @@ if place_meeting(x, y, coin_object) {
 			room_goto_next();
 	}
 }
+
+   
