@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_portal",
+  "name": "obj_elevator",
   "spriteId": {
-    "name": "spr_portal",
-    "path": "sprites/spr_portal/spr_portal.yy",
+    "name": "spr_elevator",
+    "path": "sprites/spr_elevator/spr_elevator.yy",
   },
   "solid": false,
   "visible": true,
