@@ -10,7 +10,7 @@ scale_speed = 0.1;	// How fast the size changes per step
 small_size = 0.5;	// Scale for shrinking
 large_size = 0.9;	// Scale for growing 
 normal_size = 0.7;	// Default size 
-climb_speed = 2.5; // How fast it is climbing 
+
 
 // STATE VARIABLES 
 is_ground = false; // On ground ?

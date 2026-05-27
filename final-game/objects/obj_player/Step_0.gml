@@ -74,4 +74,7 @@ if place_meeting(x, y, coin_object) {
 	}
 }
 
+
+
+
    
