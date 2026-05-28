@@ -13,7 +13,10 @@
     {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"order":3,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},"order":6,},
     {"id":{"name":"obj_elevator","path":"objects/obj_elevator/obj_elevator.yy",},"order":4,},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":5,},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
