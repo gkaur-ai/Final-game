@@ -50,6 +50,7 @@ if (is_ceiling) { // If hitting ceiling , move back down
 		move_y = 0;
 	}
 }
+
 //MOVE THE PLAYER
 move_and_collide(move_x, move_y, player_object); // Move the object
 
