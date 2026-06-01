@@ -23,12 +23,12 @@ is_ceiling = place_meeting(x, y-2, ground_object);
 // MOVEMENT - ACTUALLY MOVE PIXALS
 	if (is_jumping) {
 		move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
-	if (is_climbing) {
-		move_y = keyboard_check(vk_down) - keyboard_check(vk_up){
-		place_meeting(x, y, obj_elevator)
+	//if (is_climbing) {
+		//move_y = keyboard_check(vk_down) - keyboard_check(vk_up){
+		//place_meeting(x, y, obj_elevator)
 	}
-	}
-	}
+	//}
+	//}
 // Jumping
 
 	if (is_ground) {
@@ -60,22 +60,23 @@ if (y < -200 || y> room_height+20 || x < -20 || x> room_width+20) {		// Set the 
 }
 
 // GET COIN
-if place_meeting(x, y, coin_object) {
-	got_coin = true; 
+//if place_meeting(x, y, coin_object) {
+	//got_coin = true; 
 	// Destroy coin
-	var myinstance = instance_place(x, y, coin_object)
-	instance_destroy(inst_1C35944);
+	//var myinstance = instance_place(x, y, coin_object)
+	//instance_destroy(inst_1C35944);
 	
-}
+//}
 
-// DOOR COLLISION 
+ //PORTAL COLLISION 
 	if instance_place(x, y, obj_portal){
-		if (got_coin) {
 			room_goto_next();
 	}
+
+// COLLISION DOOR MESSAGE
+if (global.show_message) {
 }
 
 
 
-
-   
+	

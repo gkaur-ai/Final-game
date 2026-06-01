@@ -1,5 +1,6 @@
 // MOVEMENT VARIABLES
-move_speed = 3;		// Left/Right speed
+move_speed = 5;		// Left/Right speed
+increased_speed = 7;	// Left/Right increased speed
 jump_speed = -15;	// Upward jump speed
 gravity_force = 0.5;	// Gravity strength
 move_x = 0;			// Horizontal movement
@@ -23,5 +24,6 @@ ground_object = obj_ground;	 // Replace with your ground object's name
 coin_object = obj_coin;		// Replace with your ground object's name 
 player_object = obj_player; // Repace with your ground object's name 
 
-
-
+// TRACK HOW MANY COINS COLLECTED 
+coins_collected = 0; 
+coins_needed = 11;
