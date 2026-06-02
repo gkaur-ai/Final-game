@@ -1,10 +1,8 @@
 // DOOR COLLISION WITH PLAYER 
 if (place_meeting(x, y, obj_player)) {
 	if (obj_player.target_scale >= obj_player.large_size ) { 
-	//Open the door 
-	
+	//Open the door 	
 }
-	
 }
     else {
 		 //Player is too small 
@@ -20,11 +18,7 @@ if (global.show_message) {
 	}
 	
 }
-// Door Message 
- if (global.show_message) {
-	draw_set_color(c_aqua);
-	draw_set_font(fnt_doorcollision);
-	draw_text(50, 50, "Grow Bigger");
-}
+
+
 
 
