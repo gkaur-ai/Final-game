@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":7,},
     {"id":{"name":"spr_brokenbridge","path":"sprites/spr_brokenbridge/spr_brokenbridge.yy",},"order":7,},
+    {"id":{"name":"spr_doorclosed","path":"sprites/spr_doorclosed/spr_doorclosed.yy",},"order":10,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":8,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":1,},
@@ -21,6 +22,7 @@
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},"order":6,},
+    {"id":{"name":"obj_doorclosed","path":"objects/obj_doorclosed/obj_doorclosed.yy",},"order":9,},
     {"id":{"name":"obj_elevator","path":"objects/obj_elevator/obj_elevator.yy",},"order":4,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":5,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":5,},
@@ -44,8 +46,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
