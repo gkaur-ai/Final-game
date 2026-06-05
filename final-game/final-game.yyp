@@ -29,6 +29,7 @@
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":10,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":15,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"obj_livesystem","path":"objects/obj_livesystem/obj_livesystem.yy",},"order":15,},
     {"id":{"name":"spr_base","path":"sprites/spr_base/spr_base.yy",},"order":13,},
     {"id":{"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},"order":6,},
     {"id":{"name":"obj_doorclosed","path":"objects/obj_doorclosed/obj_doorclosed.yy",},"order":9,},

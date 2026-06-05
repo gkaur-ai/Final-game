@@ -50,11 +50,27 @@ if (attached_cart != noone && instance_exists(attached_cart)) {
 }
 }
 
-// Shooting bullets
-if (keyboard_check_pressed(vk_tab)) { 
-	var_bullet = instance_create_layer(x, y, "Instances", obj_bullet); // Creates a bullet instance
-	bullet.direction = 0; // Sets the bullet's direction
-	bullet.speed = 10; // Assigns speed to the bullet 
+// Shooting mechanic with cooldown
+if (mouse_check_button_pressed(mb_left) && can_shoot) {
+	instance_create_layer(x, y, "Instances", obj_bullet);
+	can_shoot = false;
+	alarm[0] = cooldown_time; // start cooldown
 }
+
+// Live system 
+global.lives -= 1;
+if (global.lives <=0) {
+	room_restart()
+}
+// Shooting bullets
+//if (keyboard_check_pressed(vk_tab)) { 
+	//var_bullet = instance_create_layer(x, y, "Instances", obj_bullet); // Creates a bullet instance
+	//bullet.direction = 0; // Sets the bullet's direction (modify based on player facing direction)
+	//bullet.speed = 10; // Assigns speed to the bullet 
+//}
+
+
+
+
 
 
