@@ -2,10 +2,10 @@
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x *= move_speed;
 var jump_pressed = keyboard_check_pressed(vk_space); // var makes this a local variable
-if keyboard_check_pressed(vk_enter) {
+if keyboard_check_pressed(vk_down) {
 	target_scale = small_size;
 }
-if keyboard_check_pressed(vk_shift) {
+if keyboard_check_pressed(vk_up) {
 	target_scale = large_size;
 }
 if keyboard_check_pressed(vk_backspace) {
