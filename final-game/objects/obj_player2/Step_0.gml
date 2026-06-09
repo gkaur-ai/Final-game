@@ -28,7 +28,17 @@ if (mouse_check_button_pressed(mb_left) && can_shoot) {
 
 // Live system 
 
-if (global.lives <=0) {
-	room_restart()
+// Laser Light 
+if (mouse_check_button_pressed(mb_middle)) {
+	var mx = mouse_x;
+	var my = mouse_y;
+	var dir = point_direction(x, y, mx, my);
+	var laser = instance_create_layer(x, y, "Instances", obj_laser);
+	laser.direction = dir;
+	
+}
+if (mouse_check_button_released(mb_middle)){
+	instance_destroy(obj_laser);
+	
 }
 
