@@ -1,6 +1,14 @@
 //  COLLECTING STUFF 
 //got_key = false;
 
+hp = 100;
+max_hp = 100;
+// Shooting cooldown control
+can_shoot = true;
+cooldown_time = 15; // frames (15 = 0.25s at 60FPS)
+
+
+
 // MOVEMENT VARIABLES 
 move_speed = 5;         // Left/Right speed
 jump_speed = -10;         // Upward jump speed

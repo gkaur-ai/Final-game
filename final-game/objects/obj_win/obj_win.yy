@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_base",
+  "name": "obj_win",
   "spriteId": {
-    "name": "spr_base",
-    "path": "sprites/spr_base/spr_base.yy",
+    "name": "spr_win",
+    "path": "sprites/spr_win/spr_win.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
