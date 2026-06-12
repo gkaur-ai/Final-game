@@ -16,7 +16,6 @@
     {"id":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},"order":3,},
     {"id":{"name":"obj_play","path":"objects/obj_play/obj_play.yy",},"order":23,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
-    {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"order":4,},
     {"id":{"name":"spr_elevator","path":"sprites/spr_elevator/spr_elevator.yy",},"order":4,},
     {"id":{"name":"obj_resetbutton","path":"objects/obj_resetbutton/obj_resetbutton.yy",},"order":16,},
     {"id":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},"order":9,},
@@ -76,10 +75,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},

@@ -49,13 +49,6 @@ if (y < -200 || y > room_height+20 || x < -20 || x > room_width+20) {  // Set th
 //  ACTUALLY MOVE THE PLAYER OBJECT
 move_and_collide(move_x, move_y, obj_base);  // Move the object
 
-// Health bar 
-//if (place_meeting(x, y, obj_enemy)){
-	//hp = 75
-	
-	
-//}
-
 
 // Shooting mechanic with cooldown
 if (mouse_check_button_pressed(mb_left) && can_shoot) {

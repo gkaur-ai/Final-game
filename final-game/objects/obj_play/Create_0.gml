@@ -1,8 +1,8 @@
 //  COLLECTING STUFF 
 //got_key = false;
 
-hp = 100;
 max_hp = 100;
+hp = max_hp;
 // Shooting cooldown control
 can_shoot = true;
 cooldown_time = 15; // frames (15 = 0.25s at 60FPS)
@@ -22,6 +22,10 @@ is_grounded = false;      // On ground?
 is_climbing = false;      // On ladder?
 climb_speed = 2.5;        // Climbing speed
 is_ceiling = false; // On the ceiling 
+
+// TRACK HOW MANY COINS COLLECTED 
+coins_collected = 0; 
+coins_needed = 7;
 
 //  OBJECT REFERENCES 
 //ground_object = obj_ground;   // Replace with your ground object's name
