@@ -3,7 +3,7 @@
 //direction = 0; // Change based on player aim \
 
 // Set bullet speed and direction towards mause
-direction = point_direction(x, y, mouse_x, mouse_y);
+direction = point_direction(x, y, mouse_x, mouse_y)
 speed = 10;
 
 

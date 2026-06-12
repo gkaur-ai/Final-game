@@ -57,3 +57,5 @@ if (mouse_check_button_pressed(mb_left) && can_shoot) {
 	alarm[0] = cooldown_time; // start cooldown
 
 }
+
+
