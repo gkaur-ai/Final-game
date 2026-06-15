@@ -71,6 +71,7 @@ if (y < -200 || y> room_height+20 || x < -20 || x> room_width+20) {		// Set the 
  //PORTAL COLLISION 
 	if instance_place(x, y, obj_portal){
 			room_goto_next();
+			audio_play_sound(portal_going, 1, false);
 	}
 
 

@@ -11,7 +11,7 @@ scale_speed = 0.1;	// How fast the size changes per step
 small_size = 0.5;	// Scale for shrinking
 large_size = 0.9;	// Scale for growing 
 normal_size = 0.7;	// Default size 
-vsp = 0; 
+ 
 
 
 // STATE VARIABLES 

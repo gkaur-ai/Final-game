@@ -3,6 +3,7 @@ other.coins_collected +=1;
 
 // Destroy the coin instance
 instance_destroy();
+audio_play_sound(coin_collected, 1, false);
 
 // Check if all coins are collected 
 if (other.coins_collected >= other.coins_needed) {

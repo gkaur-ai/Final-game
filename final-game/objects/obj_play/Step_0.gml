@@ -58,4 +58,9 @@ if (mouse_check_button_pressed(mb_left) && can_shoot) {
 
 }
 
+//PORTAL COLLISION 
+	if instance_place(x, y, obj_escape){
+			room_goto_next();
+			audio_play_sound(portal_going, 1, false);
+	}
 
